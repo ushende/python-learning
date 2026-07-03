@@ -1,4 +1,4 @@
-# - list basic 
+# --- list basic 
 
 # grocery_list = ['eggs', 'bread', 'butter'] # changing item from the list
 # grocery_list[2] = 'ketchup'
@@ -30,38 +30,36 @@
 # print(grocery_list)
 
 
-# - organizing a list
+# --- organizing a list
 
 # grocery_list = ['eggs', 'bread', 'butter', 'ketchup'] # removing item by value from the list
 # print("Here is original list.")
 # print(grocery_list)
 
-# grocery_list.sort() # organize the list in alphabetical order
+# grocery_list.sort() #organize the list in alphabetical order
 # print("\nHere is sorted list.")
 # print(grocery_list)
 
-# grocery_list.reverse # organize the list in reverse order
+# grocery_list.reverse #organize the list in reverse order
 # print("\nHere is reverse order list.")
 # print(grocery_list)
 
-# - length of list 
+# --- length of list 
 
 # print(len(grocery_list))
 # item = len(grocery_list) # this will list number (int calculate item in list)
 # print("There are " + str(item) + " items in the list.")
 
 
-# - for loop basic
-
-#This line tells Python to pull a name from the list grocery_list, and store it in the variable grocery.
+# --- for loop basic
 
 # grocery_list = ['eggs', 'bread', 'butter', 'ketchup'] 
-# for grocery in grocery_list: 
+# for grocery in grocery_list:  # this line tells Python to pull a name from the list grocery_list, and store it in the variable grocery.
 #     print(grocery)
 
 # print("I'll use this items to make an ommelet.")
 
-# - using range() function
+# --- using range() function
 
 # for value in range(1, 5):
 #     print(value)
@@ -85,17 +83,17 @@
 # squares = [value**2 for value in range(1, 11)] # list comprehension
 # print(squares)
 
-# simple statistics with the list numbers
+# --- simple statistics with the list numbers
 
 # digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # print(min(digits))
 # print(max(digits))
 # print(sum(digits))
 
-# for odd in range(1, 21, 2): # - start with (1) and you get odd number and start with 2 you get prime number
+# for odd in range(1, 21, 2): # start with (1) and you get odd number and start with 2 you get prime number
 #     print(odd)
 
-# -slicing list
+# --- slicing list
 
 # players = ['charles', 'martina', 'michael', 'florence', 'eli']
 # print(players[0:3]) # (start:stop:increament)
@@ -111,6 +109,7 @@
 # for player in players[:3]:
 #     print(player.title())
 
+# --- create a copy of list [:]
 
 # players = ['charles', 'martina', 'michael', 'florence', 'eli']
 # player = players[:] # made a copy of list (players)
@@ -124,7 +123,7 @@
 # print(player)
 
 
-# tuple 
+# --- tuple (tuple can't be changed)
 
 # dimension = (200, 50)
 # print(dimension[0])

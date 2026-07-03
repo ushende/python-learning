@@ -1,13 +1,39 @@
 # Python Learning
 
-This repository contain my Python learning journey.
+Welcome to my Python learning journey!
 
-## Topics
- 
-- Lists
-- Loops
+This repository contains my notes, practice code, and experiments as I learn Python from the basics to more advanced topics.
 
+## Goals
 
+* Learn Python fundamentals
+* Practice writing clean Python code
+* Build a strong foundation for Django and backend development
+* Track my progress over time using Git and GitHub
 
+## Topics Covered
 
-I'll keep updating this repository as I learn more Python.
+* Variables
+* Data Types
+* Lists
+* Tuples
+* Dictionaries
+* Loops
+
+## Repository Structure
+
+```text
+python-learning/
+├── learning.py
+└── README.md
+```
+
+`learning.py` contains all my notes, examples, and practice programs, organized into sections with comments.
+
+## Progress
+
+I update this repository regularly as I learn new Python concepts and complete practice exercises.
+
+## Author
+
+Umesh Shende
