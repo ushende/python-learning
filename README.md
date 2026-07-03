@@ -9,8 +9,8 @@ This repository contains my notes, practice code, and experiments as I learn Pyt
 ## Topics Covered
 
 * Variables
-* Data Types
 * Strings
+* Data Types
 * Lists
 * Tuples
 * Loops 
