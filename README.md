@@ -22,13 +22,11 @@ This repository contains my notes, practice code, and experiments as I learn Pyt
 
 ## Repository Structure
 
-```text
 python-learning/
-├── learning.py
-└── README.md
-```
+- learning.py
+- README.md
 
-`learning.py` contains all my notes, examples, and practice programs, organized into sections with comments.
+'learning.py' contains all my notes, examples, and practice programs, organized into sections with comments.
 
 ## Progress
 

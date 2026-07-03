@@ -30,6 +30,7 @@
 # print(grocery_list)
 
 
+
 # --- organizing a list
 
 # grocery_list = ['eggs', 'bread', 'butter', 'ketchup'] # removing item by value from the list
@@ -43,6 +44,7 @@
 # grocery_list.reverse #organize the list in reverse order
 # print("\nHere is reverse order list.")
 # print(grocery_list)
+
 
 # --- length of list 
 
@@ -58,6 +60,7 @@
 #     print(grocery)
 
 # print("I'll use this items to make an ommelet.")
+
 
 # --- using range() function
 
@@ -83,6 +86,7 @@
 # squares = [value**2 for value in range(1, 11)] # list comprehension
 # print(squares)
 
+
 # --- simple statistics with the list numbers
 
 # digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -92,6 +96,7 @@
 
 # for odd in range(1, 21, 2): # start with (1) and you get odd number and start with 2 you get prime number
 #     print(odd)
+
 
 # --- slicing list
 
@@ -108,6 +113,7 @@
 # print("Here are the first three players on my team:")
 # for player in players[:3]:
 #     print(player.title())
+
 
 # --- create a copy of list [:]
 
