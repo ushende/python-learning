@@ -175,5 +175,107 @@
 # dimensions = (200, 50)
 # for dimension in dimensions: # looping in tuple
 #     print(dimension)
+ 
+ 
+# --- if/elif/else statements
+
+# bikes = ['pulser', 'ktm', 'duke', 'splendor']
+
+# for bike in bikes:
+#     if bike == 'ktm': # action to take based on this condition
+#         print(bike.upper())
+#     else:
+#         print(bike.title())
+
+# conditional test 
+
+# car = 'bmw'
+# print(car == 'bmw') # equality 
+
+# age = 26
+# print(age != 27) # inequality 
+
+# print(age < 30)
+# print(age > 30)
+# print(age <= 30)
+# print(age >= 30)
+
+# checking multiple conditions [and/or/not]
+
+# print(age < 50 and age > 18) # both condition need true for true / otherwise it will print false
+# print(age < 50 and age > 18) # both condition need false for false / otherwise it will print true
+
+# checking a value in list
+
+# bikes = ['pulser', 'ktm', 'duke', 'splendor']
+# print('pulser' in bikes)  # so this will return true
+
+# bikes = ['pulser', 'ktm', 'duke', 'splendor']
+# bike = 'activa'
+
+# if bike not in bikes: # check a value in the list
+#     print(bike.title() + " is not a bike.")
+
+# if/else 
+
+# age = 26
+# if age >= 18:
+#     print("You are old enough to vote!")
+#     print("Have you registered to vote yet?")
+# else:
+#     print("Sorry, you are to young to vote.")
+#     print("Please register to vote as soon as you turn 18.")
+
+# if/elif/else 
+
+# age = 26
+
+# if age < 12:
+#     print("You are a child.")
+# elif age >= 12 and age <= 18: # extra elif statement
+#     print("Your are a teenager")
+# elif age >= 18 and age <= 60:
+#     print("You are an adult")
+#     print("You are old enough to vote.")
+# else:
+#     print("Your are an old.")
+
+# checking multiple condition
+
+# grocery = ['eggs', 'chilli', 'tomato', 'salt', 'butter']
+
+# if 'eggs' in grocery:
+#     print("Adding eggs.")
+# if 'chilli' in grocery:
+#     print("Adding chilli")
+# if 'ketchup' in grocery:
+#     print("Adding ketcup")
+# if 'butter' in grocery:
+#     print("Adding butter")
+# if 'tomato' in grocery:
+#     print("Adding tomato")
+# if 'salt' in grocery:
+#     print("Adding salt")
+
+# print("\nFinished making your omlette.")
+
+# if statement with list
+
+# grocery_list = ['eggs', 'chilli', 'tomato', 'salt', 'butter']
+
+# if grocery_list:
+#     for grocery in grocery_list:
+#         if grocery == 'tomato':
+#             print("Sorry, we are out of tomato right now.")
+#         else:
+#             print("Adding", grocery)
+#     print("\nFinished making your omelette.")
+# else:
+#     print("Are you sure you want a plain omelette.") # if the list is empty
+
+
+
+
+
 
 
