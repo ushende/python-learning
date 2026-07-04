@@ -176,7 +176,7 @@
 # for dimension in dimensions: # looping in tuple
 #     print(dimension)
  
- 
+
 # --- if/elif/else statements
 
 # bikes = ['pulser', 'ktm', 'duke', 'splendor']
@@ -273,6 +273,39 @@
 # else:
 #     print("Are you sure you want a plain omelette.") # if the list is empty
 
+# --- user input
+
+# name = input('Please enter your name: ')
+# print("Hello,",name.title())
+
+# age = int(input("How old are you? "))
+# if age < 18:
+#     print("You are not allowed to vote.")
+# else:
+#     print("You are old enough to vote.")
+#     print("Carry your voting ID with you, before going to vote.")
+
+# modulo operator [%] which return a remainder
+
+# number = int(input("Enter a number, I will tell you if it's even or odd: "))
+# if number % 2 == 0:
+#     print("\nThe number " + str(number) + " is even.")
+# else:
+#     print("\nThe number " + str(number) + " is odd")
+
+
+# --- while loops 
+
+# current_number = 1 
+# while current_number <= 5:
+#     print(current_number)
+#     current_number += 1
+
+# password = ""
+# while password != 'python':
+#     password = input("Enter password: ")
+
+# print("Access granted")
 
 
 
