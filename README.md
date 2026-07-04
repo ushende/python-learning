@@ -1,13 +1,11 @@
 # Python Learning
 
-This repository documents my journey of learning Python.
+This repository contains my Python learning journey.
 
-## Repository Structure
+I'm following a Python book and using this repository to:
 
-```text
-python-learning/
-├── learning.py
-└── README.md
-```
+* write notes as I learn
+* practice the concepts covered in each chapter
+* keep everything in one place for future revision
 
-I update this repository as I learn new concepts and improve my Python skills.
+The code in this repository is primarily for learning, so you'll find examples, experiments, and commented snippets alongside my notes. I'll continue updating it as I progress through the book.
