@@ -331,11 +331,10 @@
 # describe_bike("pulser", "200")
 # describe_bike(bike_name="pulser", bike_model="200") # explicitly tell python which parameter each arguement should be matched with
 
-
 """ default values parameter & argument """
 
-def describe_bike(bike_model, bike_name="pulser"): # required come first and then default
-    print("I have a", bike_name.title() + bike_model + " bike.")
+# def describe_bike(bike_model, bike_name="pulser"): # required come first and then default
+#     print("I have a", bike_name.title() + bike_model + " bike.")
 
-describe_bike("200") # we can direct pass arguemnt
-describe_bike(bike_model="200") # or we can explicitly pass the arguement
+# describe_bike("200") # we can direct pass arguemnt
+# describe_bike(bike_model="200") # or we can explicitly pass the arguement
