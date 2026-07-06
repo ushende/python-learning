@@ -1,11 +1,11 @@
-# --- first program 
+""" first program """
 
 # print("Hello world!")
 # print("Hello, Python world!")
 # print("Myself, Umesh Shende. I'm learning Python language.")
 
 
-# --- variables - [variable hold value, which is related to that variable]
+""" variables - [variable hold value, which is related to that variable] """
 
 # age = 26  
 # print(age)
@@ -13,26 +13,26 @@
 # print(name)
 
 
-# --- strings [string is simply a series of characters]
+""" strings [string is simply a series of characters]"""
 
 # print("This is a string.")   
 # print("This is also a string.")
 
-# changing cases in strings
+""" changing cases in strings """
 
 # name = "umesh shende"
 # print(name.title()) # title is method - each word begin with capital letter
 # print(name.lower()) # with lower method each word convert into lowercase
 # print(name.upper()) # with upper method each word convert into uppercase
 
-# concatenating the strings
+""" concatenating the strings """
 
 # first_name = "umesh"
 # last_name = "shende"
 # full_name = first_name + " " + last_name # concatenating the strings with (+)
 # print("Hello, " + full_name.title() + "!")
 
-# newline/tab
+""" newline[\n] & tab[\t] """
 
 # print("\tPython") # \t - adds a tab to a text
 # print("\nPython") # \n - adds a new line
@@ -40,7 +40,7 @@
 # print("Grocert List:\n\tEggs\n\tBread\n\tKetchup\n\tButter") # first add newline then tab 
 
 
-# --- intergers
+""" intergers """
 
 # print(5 + 5) # addition
 # print(5 - 5) # subtraction
@@ -57,10 +57,12 @@
 # print(message)
 
 
-# --- this is how you write comment.
+""" This is a comment called docstring """
+
+# this is also a comment.
 
 
-# --- list basic [change/append()/del/insert()/pop()/remove()]
+""" list basic [change/append()/del/insert()/pop()/remove()] """
 
 # grocery_list = ['eggs', 'bread', 'butter'] # changing item from the list
 # grocery_list[2] = 'ketchup'
@@ -92,7 +94,7 @@
 # print(grocery_list)
 
 
-# --- organizing a list (sorting/reverse)
+""" organizing a list (sorting/reverse) """
 
 # grocery_list = ['eggs', 'bread', 'butter', 'ketchup'] # removing item by value from the list
 # print("Here is original list.")
@@ -107,27 +109,26 @@
 # print(grocery_list)
 
 
-# --- length of list - len()
+""" length of list - len() """
 
 # print(len(grocery_list))
 # item = len(grocery_list) # this will list number (int calculate item in list)
 # print("There are " + str(item) + " items in the list.")
 
 
-# --- for loop basic [for loop]
+""" for loop basic [for loop] """
 
 # grocery_list = ['eggs', 'bread', 'butter', 'ketchup'] 
 # for grocery in grocery_list:  # for loop store grocery_list items in grocery with each loop
 #     print(grocery) # then print each value 
 
 
-# --- using range()
+""" using range() """
 
 # tables = list(range(2, 21, 2)) # (start:stop:increament)
 # print(tables)
 
-
-# --- simple statistics with the list numbers [min/max/sum]
+"""simple statistics with the list numbers [min/max/sum] """
 
 # digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # print(min(digits)) # min give minimum number form the list
@@ -135,7 +136,7 @@
 # print(sum(digits)) # sum give sum of all the number from the list
 
 
-# --- slicing list - [start:stop:increament]
+""" slicing list - [start:stop:increament] """
 
 # players = ['charles', 'martina', 'michael', 'florence', 'eli']
 # print(players[0:3]) # (start:stop:increament)
@@ -152,7 +153,7 @@
 #     print(player.title())
 
 
-# m--- create a copy of list [:]
+""" create a copy of list [:] """
 
 # players = ['charles', 'martina', 'michael', 'florence', 'eli']
 # player = players[:] # made a copy of list (players)
@@ -166,7 +167,7 @@
 # print(player)
 
 
-#--- tuple [tuple can't be changed]
+""" tuple [tuple can't be changed] """
 
 # dimension = (200, 50)
 # print(dimension[0])
@@ -177,7 +178,7 @@
 #     print(dimension)
  
 
-# --- if/elif/else statements
+""" if/elif/else statements """
 
 # bikes = ['pulser', 'ktm', 'duke', 'splendor']
 
@@ -187,7 +188,7 @@
 #     else:
 #         print(bike.title())
 
-# conditional test 
+""" conditional test """
 
 # car = 'bmw'
 # print(car == 'bmw') # equality 
@@ -200,12 +201,12 @@
 # print(age <= 30)
 # print(age >= 30)
 
-# checking multiple conditions [and/or/not]
+""" checking multiple conditions [and/or/not] """
 
 # print(age < 50 and age > 18) # both condition need true for true / otherwise it will print false
 # print(age < 50 and age > 18) # both condition need false for false / otherwise it will print true
 
-# checking a value in list
+""" checking a value in list """
 
 # bikes = ['pulser', 'ktm', 'duke', 'splendor']
 # print('pulser' in bikes)  # so this will return true
@@ -216,7 +217,7 @@
 # if bike not in bikes: # check a value in the list
 #     print(bike.title() + " is not a bike.")
 
-# if/else 
+""" if/else """
 
 # age = 26
 # if age >= 18:
@@ -226,7 +227,7 @@
 #     print("Sorry, you are to young to vote.")
 #     print("Please register to vote as soon as you turn 18.")
 
-# if/elif/else 
+""" if/elif/else """
 
 # age = 26
 
@@ -240,7 +241,7 @@
 # else:
 #     print("Your are an old.")
 
-# checking multiple condition
+""" checking multiple condition """
 
 # grocery = ['eggs', 'chilli', 'tomato', 'salt', 'butter']
 
@@ -259,7 +260,7 @@
 
 # print("\nFinished making your omlette.")
 
-# if statement with list
+""" if statement with list """
 
 # grocery_list = ['eggs', 'chilli', 'tomato', 'salt', 'butter']
 
@@ -273,7 +274,7 @@
 # else:
 #     print("Are you sure you want a plain omelette.") # if the list is empty
 
-# --- user input
+""" user input """
 
 # name = input('Please enter your name: ')
 # print("Hello,",name.title())
@@ -285,7 +286,7 @@
 #     print("You are old enough to vote.")
 #     print("Carry your voting ID with you, before going to vote.")
 
-# modulo operator [%] which return a remainder
+""" modulo operator [%] which return a remainder """
 
 # number = int(input("Enter a number, I will tell you if it's even or odd: "))
 # if number % 2 == 0:
@@ -294,7 +295,7 @@
 #     print("\nThe number " + str(number) + " is odd")
 
 
-# --- while loops 
+""" while loops """
 
 # current_number = 1 
 # while current_number <= 5:
@@ -308,7 +309,33 @@
 # print("Access granted")
 
 
+""" functions [def] """
+
+# def greet_user(): # defining a function
+#     print("Hello, world!") # giving task to the function
+
+# greet_user() # calling the funciton
+
+""" parameter & arguement """
+
+# def greet_user(username): # add a parameter - a piece of info the function needs to do its job
+#     print("Hello,", username.title())
+
+# greet_user("umesh") # passing a arguement - a piece of info that is passed from a function call to a funciton
+ 
+""" multiple parameter & argument """
+
+# def describe_bike(bike_name, bike_model):
+#     print("I have a", bike_name.title() + bike_model + " bike.")
+
+# describe_bike("pulser", "200")
+# describe_bike(bike_name="pulser", bike_model="200") # explicitly tell python which parameter each arguement should be matched with
 
 
+""" default values parameter & argument """
 
+def describe_bike(bike_model, bike_name="pulser"): # required come first and then default
+    print("I have a", bike_name.title() + bike_model + " bike.")
 
+describe_bike("200") # we can direct pass arguemnt
+describe_bike(bike_model="200") # or we can explicitly pass the arguement
