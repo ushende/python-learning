@@ -1,11 +1,10 @@
 # Python Learning
 
-This repository contains my Python learning journey.
+This repository contains my Python learning journey, including notes, practice code, and mini projects.
 
-I'm following a Python book and using this repository to:
+## What's Inside
 
-* write notes as I learn
-* practice the concepts covered in each chapter
-* keep everything in one place for future revision
+- **notes.py** – My Python notes, concepts, and code examples.
+- **mini-projects/** – Small projects built to practice and reinforce what I've learned.
 
-The code in this repository is primarily for learning, so you'll find examples, experiments, and commented snippets alongside my notes. I'll continue updating it as I progress through the book.
+The purpose of this repository is to track my progress, improve my programming skills, and have a single place for revision as I continue learning Python.
