@@ -1,17 +1,10 @@
-# Python Mini Projects
+# Python Learning
 
-This folder contains the mini projects I build while learning Python.
+This repository contains my Python learning journey, including notes, practice code, and mini projects.
 
-Each project helps me practice the concepts I've learned, improve my problem-solving skills, and gain hands-on programming experience.
+## What's Inside
 
-## Projects
+- **notes.py** – My Python notes, concepts, and code examples.
+- **mini-projects/** – Small projects built to practice and reinforce what I've learned.
 
-- Shopping Bill Generator
-- *(More projects will be added as I continue learning.)*
-
----
-
-Each project is stored in its own folder and typically contains:
-
-- `main.py` – The project's source code.
-- `README.md` – A brief description of the project.
+The purpose of this repository is to track my progress, improve my programming skills, and have a single place for revision as I continue learning Python.
