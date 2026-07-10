@@ -1,3 +1,11 @@
 # Python Notes
 
-This folder contains my Python notes, commented explanations, and code examples that I write while learning Python. These notes help me revise concepts and understand how they work.
+This folder contains the notes I write while learning Python.
+
+The notes include explanations, commented code examples, and practice snippets to help me understand concepts and revise them later.
+
+---
+
+The main file in this folder is:
+
+- `notes.py` – Contains commented notes, explanations, and code examples.
