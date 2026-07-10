@@ -345,5 +345,3 @@
 # sum = add(6, 1) # with return, value can be stored in variable
 # print(sum)
 # print(sum + 10) # that value can be used
-
-
